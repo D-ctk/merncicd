@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: project_bank-backend:latest
+          image: 640168414967.dkr.ecr.us-east-1.amazonaws.com/backend
           imagePullPolicy: Never
           ports:
             - containerPort: 7001

@@ -9,7 +9,7 @@ const app = express()
 app.use (express.json())  //convert data to json
 app.use (cors())
 //pass connection string plus db name
-mongoose.connect('mongodb://mongo-service:27017/mydb');
+mongoose.connect('process.env.MONGO_URI');
 
 app.post("/register", (req,res)=> {
     UserModel.create(req.body)
