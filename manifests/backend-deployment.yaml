@@ -16,7 +16,7 @@ spec:
         - name: ecr-secret-1
       containers:
         - name: backend
-          image: 640168414967.dkr.ecr.us-east-1.amazonaws.com/backend:v86
+          image: 640168414967.dkr.ecr.us-east-1.amazonaws.com/backend
           imagePullPolicy: Never
           ports:
             - containerPort: 7001
