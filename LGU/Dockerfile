@@ -9,7 +9,7 @@ RUN npm install
 COPY . .
 
 EXPOSE 5173
-CMD ["npm", "run", "dev", "--", "--host"]
+CMD ["npm", "run", "preview"]
 
 
 # Production stage (optional, uncomment if needed)
