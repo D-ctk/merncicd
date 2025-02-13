@@ -1,2 +1,3 @@
 cd MyMern5/LGU
 >npm run dev
+npm install
